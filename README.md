@@ -1,8 +1,11 @@
 # Wearabyte E-Commerce Project
 
 This demo project was built with Joseph Surowaniec, Liam Gilmore, and Johnny Huang over the course of one week.  
+
 Front End was built using React.js and styled-components.
+
 Back End was built using Node.js, Express, and MongoDB as the database.
+
 Task management was done using a Trello board with daily morning standup meetings and clearly defined milestones per day.
 
 For this project, my role was primarily in coding the backend API in Node.js along with Liam Gilmore. For undisclosed reasons, we did not use any local or window storage and so all data regarding the active cart was stored directly in the MongoDB as a document.  This created some interesting challenges related to making realtime modifications to the cart, displaying those changes to the UI, and ensuring accurate synchronization between the UI and db regarding available quantities.  and much of the final troubleshooting and logic on this section was done by myself. I also ported in the search logic from an earlier project to allow automatic keyword matching from the items database.  The Front End was primarily handled by Johnny Huang and Joseph Surowaniec, although there was crossover when needed by all members of the team to pitch in and ensure the product was delivered.
